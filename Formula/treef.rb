@@ -6,7 +6,7 @@ class Treef < Formula
     license "MIT"
   
     def install
-      bin.install "treef-1.0.0/treef.sh" => "treef"
+      bin.install "treef.sh" => "treef"
     end
   
     test do
